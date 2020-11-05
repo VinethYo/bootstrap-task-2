@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(185,182,182,0.04) ;
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+    font-size: 26px;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 26px;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+p{
+    font-size: 13px;
+}
+.navbar-nav{
+    float: right;
+    
+}
+.nav-link {
+    margin-left: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.q{
+    background: none;
+    border: none;
+}
+.btn{
+    width: 100px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 5%;
+}
+#bg{
+    background-image: url(bg.jpeg);
+    height: 400px;
+    background-size: cover;
+   
+}
+.w{
+    height: 40px;
+    width: 200px;
+    background-color: #40e0d0;
+    color: black;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+#img{
+    width: 500px;
+    float: right;
+    /* margin-right: 2%; */
+    position: relative;
+    top: -120px;
+}
+
+.badge {
+    width: 130px;
+     height: 40px;
+      /* margin-left: 0%; */
+       margin-top: -20px;
+        background-color:blue;
+        margin-left: 20px;
+        border-radius: 0;
+        color: #fff;
+}
+
+
+@media (max-width:425px){
+    .nav-link {
+        color: blue !important;
+    }
+    }
+.s{
+    font-size: 30px;
+}
+.nav-link{
+    color:rgba(163,155,155,0.97);
+}
+
